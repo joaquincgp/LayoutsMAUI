@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TallerClaseJoaquinChacon.GridLayout"
-             Title="GridLayout">
+             Title="Grid Layout">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition />
@@ -26,7 +26,8 @@
                  Color="Purple" />
         <Button Grid.Row="1"
                Grid.Column="1"
-               Text="Boton"
+               Text="Go to Stack Layout"
+               Clicked="GoToStackLayout" 
                HorizontalOptions="Center"
                VerticalOptions="Center" />
        

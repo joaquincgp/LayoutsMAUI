@@ -6,4 +6,8 @@ public partial class GridLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+    public void GoToStackLayout(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new StackLayout());
+    }
 }

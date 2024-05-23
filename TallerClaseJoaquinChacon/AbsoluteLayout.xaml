@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerClaseJoaquinChacon.AbsoluteLayout"
+             Title="AbsoluteLayout">
+    <AbsoluteLayout>
+ 
+        <ScrollView AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <StackLayout>
+                
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+             
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>       
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                <Label Text="Info"
+                       FontSize="20"
+                       Padding="20"/>
+                
+            </StackLayout>
+        </ScrollView>
+
+      
+        <Button Text="Ir a Grid Layout"
+                Clicked="GoToGridLayout"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+        />
+    </AbsoluteLayout>
+</ContentPage>

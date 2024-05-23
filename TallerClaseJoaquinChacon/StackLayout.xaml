@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerClaseJoaquinChacon.StackLayout"
+             Title="Stack Layout">
+    <StackLayout Margin="20">
+        <Label Text="Primer texto" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="Title"
+               HeightRequest="100"
+               />
+        <Label Text="Segundo texto" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="Small"
+               HeightRequest="100"
+               />
+        <Label Text="Tercer texto" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="Micro"
+               HeightRequest="100"
+       />
+        <Button 
+       Text="Ir a Flex Layout"
+       Clicked="GoToFlexLayout" 
+       HorizontalOptions="Center"
+       VerticalOptions="Center" 
+        />
+     
+    </StackLayout>
+</ContentPage>
